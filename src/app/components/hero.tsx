@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <>
-      <div className="lg:flex items-center min-h-screen">
+      <div className="flex items-center min-h-screen">
         <div className="avatar">
           <div className="rounded-full">
             <Image
