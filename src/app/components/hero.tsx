@@ -4,14 +4,14 @@ import Link from "next/link";
 export default function Hero() {
   return (
     <>
-      <div className="flex items-center min-h-screen">
+      <div className="sm:flex items-center min-h-screen">
         <div className="avatar">
           <div className="rounded-full">
             <Image
               src="/images/headshot.jpg"
               className="max-w-sm rounded-lg"
-              width={500}
-              height={500}
+              width={400}
+              height={400}
               alt="Picture of Doug"
             />
           </div>
