@@ -8,7 +8,7 @@ export default function Hero() {
         <div className="avatar">
           <div className="rounded-full">
             <Image
-              src="/Headshot.jpeg"
+              src="/images/headshot.jpg"
               className="max-w-sm rounded-lg"
               width={500}
               height={500}
