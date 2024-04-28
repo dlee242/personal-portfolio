@@ -8,15 +8,15 @@ export default function NavBar() {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal px-1">
-          <li>
+          {/* <li>
             <Link href={"/about"}>About Me</Link>
-          </li>
+          </li> */}
           <li>
             <Link href={"/career"}>Career</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={"/skills"}>Skills</Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
