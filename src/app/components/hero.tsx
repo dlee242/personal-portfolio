@@ -15,7 +15,7 @@ export default function Hero() {
                 Welcome to my page. Get to know more about me and the work
                 that I do.
               </p>
-              <Link className="btn btn-primary" href={"/career"}>Learn More</Link>
+              <Link className="btn btn-primary" href={"/about"}>Learn More</Link>
             </div>
           </div>
         </div>
