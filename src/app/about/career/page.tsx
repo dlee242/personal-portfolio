@@ -1,5 +1,5 @@
-import Tab from "../components/tab";
-import Timeline from "../components/timeline";
+import Timeline from "@/app/components/timeline";
+import Tab from "../../components/tab";
 
 export default function About() {
   return (
@@ -7,7 +7,8 @@ export default function About() {
       <div className="z-10 w-full max-w-5xl justify-between font-mono text-sm lg:flex flex-col">
         <h1 className="text-xl font-bold">About Me</h1>
         <div className="divider"></div>
-        <Tab />
+        <Tab/>
+        <Timeline/>
       </div>
     </main>
   );

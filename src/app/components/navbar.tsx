@@ -16,9 +16,6 @@ export default function NavBar() {
           <li>
             <Link href={"/career"}>Career</Link>
           </li>
-          {/* <li>
-            <Link href={"/skills"}>Skills</Link>
-          </li> */}
         </ul>
         <MobileDropDown />
       </div>
